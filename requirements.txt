@@ -1,0 +1,16 @@
+# Usage: pip install -r requirements.txt
+
+pandas
+plyfile
+numpy
+Pillow
+scipy
+torch
+pyyaml
+tqdm
+scipy
+matplotlib
+tensorboardX
+tensorboard
+transformers
+torchvision
