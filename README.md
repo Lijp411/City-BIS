@@ -20,7 +20,7 @@ The code has been tested on:
 ## Installation
   ```
   # create and activate the conda environment
-  conda env create -f environment.yaml
+  conda create -n BIS python=3.10
   conda activate BIS
 
   # install the necessary packages
