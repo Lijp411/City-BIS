@@ -29,7 +29,8 @@ The code has been tested on:
   ```
 
 ## Building Semantic Segmentation
-  You can try the building points segmentation via VPBE-Net. The codes of data preprocessing and network training have been released!
+  You can try the building points segmentation via VPBE-Net. The codes of data preprocessing and network training have been released! We provide a Colab template for quick and easy access to this method. Please check it! 
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/gaussian-splatting-colab/blob/main/gaussian_splatting_colab.ipynb)
   
   Please collate the data into a form consistent with S3DIS and place them to ./data.
 
@@ -53,7 +54,7 @@ The code has been tested on:
 ## Building Instance Extraction
   To automatically assign instance-level building IDs, you can use the SI-DVDC method, and the code to be released soon.
 
-## 🔦 Contact us
+## 🤝 Contact us
   If you find this repo helpful, please give us a star. For any questions, please contact us via lijp57@mail2.sysu.edu.cn.
 
 
