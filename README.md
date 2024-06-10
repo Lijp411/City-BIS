@@ -16,7 +16,7 @@ The code has been tested on:
 - CUDA 12.2
 - Python 3.10
 - Pytorch 2.1.0
-- Tesla V100 GPU.
+- NVIDIA Tesla V100 GPU and NVIDIA Tesla T4 GPU.
 
 ## Installation
   ```
@@ -29,7 +29,7 @@ The code has been tested on:
   ```
 
 ## Building Semantic Segmentation
-  You can try the fast and efficient building points segmentation via VPBE-Net. The codes of data preprocessing and network training will be released soon.
+  You can try the fast and efficient building points segmentation via VPBE-Net. The codes of data preprocessing and network training have been released!
 
 ## Building Instance Extraction
   To automatically assign instance-level building IDs, you can use the SI-DVDC method, and the code to be released soon.
