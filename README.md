@@ -29,8 +29,7 @@ The code has been tested on:
   ```
 
 ## Building Semantic Segmentation
-  You can try the fast and efficient building points segmentation via VPBE-Net. The codes of data preprocessing and network training have been released!
-
+  You can try the building points segmentation via VPBE-Net. The codes of data preprocessing and network training have been released!
   First, please collate the data into a form consistent with S3DIS and place them to ./data.
 
 ## Building Instance Extraction
