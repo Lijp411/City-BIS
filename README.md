@@ -33,6 +33,18 @@ The code has been tested on:
   
   First, please collate the data into a form consistent with S3DIS and place them to ./data.
 
+  Ensure that relevant dependencies have been updated.
+  ```
+  sudo apt update
+  sudo apt install python3-dev python3-pip python3-tk
+  pip install mayavi
+  ```
+  
+  Then, you can train the VPBE-Net with the following command on your self-constructed dataset:
+  ```
+  python train_City_BIS.py
+  ```
+
 ## Building Instance Extraction
   To automatically assign instance-level building IDs, you can use the SI-DVDC method, and the code to be released soon.
 
