@@ -5,12 +5,12 @@ City-scale building instance segmentation from LiDAR point cloud is of great sig
 
  ![overview](fig/pipeline.png)
 
-## Dataset Download
+## 💾 Dataset Download
 We provide the City-BIS dataset to facilitate future research for building instance segmentation in both suburban and urban areas. City-BIS dataset totally encompasses more than 7,000 buildings of various types within an area of 9.6 square kilometre, which is organised in a well-structured manner and contains two parts. The first part is the original version of the dataset, that contains point clouds with building instance ID annotations for three representative regions. The second part is the finely labelled version of the dataset, that adds the fine-grained attribute annotations of the buildings (e.g., roof type, height and coverage, etc).
 
 The first part of City-BIS is available at the [City-BIS dataset](https://pan.baidu.com/s/1ThysM2QRsR3LRpescn--kA?pwd=ezqh)
 
-## Requirements
+## 💻 Requirements
 The code has been tested on:
 - Ubuntu 20.04
 - CUDA 12.2
@@ -18,7 +18,7 @@ The code has been tested on:
 - Pytorch 2.1.0
 - NVIDIA Tesla V100 GPU and NVIDIA Tesla T4 GPU.
 
-## Installation
+## 🔧 Installation
   ```
   # create and activate the conda environment
   conda create -n BIS python=3.10
@@ -53,7 +53,7 @@ The code has been tested on:
 ## Building Instance Extraction
   To automatically assign instance-level building IDs, you can use the SI-DVDC method, and the code to be released soon.
 
-## Contact us
-  For any questions, please contact us via lijp57@mail2.sysu.edu.cn.
+## 🔦 Contact us
+  If you find this repo helpful, please give us a star. For any questions, please contact us via lijp57@mail2.sysu.edu.cn.
 
 
