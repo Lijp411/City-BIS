@@ -31,7 +31,7 @@ The code has been tested on:
 ## Building Semantic Segmentation
   You can try the fast and efficient building points segmentation via VPBE-Net. The codes of data preprocessing and network training have been released!
 
-  #Please collate the data into a form consistent with S3DIS and place them to ./data.
+  First, please collate the data into a form consistent with S3DIS and place them to ./data.
 
 ## Building Instance Extraction
   To automatically assign instance-level building IDs, you can use the SI-DVDC method, and the code to be released soon.
