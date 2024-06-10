@@ -40,7 +40,7 @@ The code has been tested on:
   pip install mayavi
   ```
   
-  Then, you can train the VPBE-Net with the following command on your self-constructed dataset:
+  Then, you can train the VPBE-Net with the following command on your self-constructed dataset or our example:
   ```
   python train_City_BIS.py
   ```
