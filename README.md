@@ -31,8 +31,6 @@ The code has been tested on:
 ## Building Semantic Segmentation
   You can try the building points segmentation via VPBE-Net. The codes of data preprocessing and network training have been released!
   
-  We provide a **Colab** template for quick and easy access to this method. Please click it. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/Lijp411/47c240b54fa677fac0e30248a5adc62d/city_bis.ipynb)
-  
   Please collate the data into a form consistent with S3DIS and place them to ./data.
 
   Ensure that relevant dependencies have been updated.
@@ -51,6 +49,8 @@ The code has been tested on:
   ```
   python test_models.py
   ```
+
+  We provide a **Colab** template for quick and easy access to this method. Please click it. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/Lijp411/47c240b54fa677fac0e30248a5adc62d/city_bis.ipynb)
 
 ## Building Instance Extraction
   To automatically assign instance-level building IDs, you can use the SI-DVDC method, and the code to be released soon.
