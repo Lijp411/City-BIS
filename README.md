@@ -72,4 +72,7 @@ The code has been tested on:
 ## 🤝 Contact us
   If you find this repo helpful, please give us a star. For any questions, please contact us via lijp57@mail2.sysu.edu.cn.
 
+## Acknowledgement
+-  This work is built upon the KPConv. 
+
 
