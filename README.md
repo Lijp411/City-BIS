@@ -31,7 +31,21 @@ The code has been tested on:
 ## Building Semantic Segmentation
   You can try the building points segmentation via VPBE-Net. The codes of data preprocessing and network training have been released!
   
-  Please collate the data into a form consistent with S3DIS and place them to ./data.
+  Please collate the data into a form consistent with S3DIS, place them to ./data and organize as follows.
+  ```
+  ├── data
+  │   ├── Area_1
+  │   │   ├── R_1
+  │   │        ├── R_1.txt
+  │   │        └── Annotations
+  │   │   ├── R_2
+  │   │   └── ...
+  │   ├── Area_2
+  │   ├── Area_3
+  │   ├── Area_4
+  │   ├── Area_5
+  │   ├── Area_6
+  ```
 
   Ensure that relevant dependencies have been updated.
   ```
