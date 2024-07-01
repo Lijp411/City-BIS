@@ -73,6 +73,7 @@ The code has been tested on:
   If you find this repo helpful, please give us a star. For any questions, please contact us via lijp57@mail2.sysu.edu.cn.
 
 ## Acknowledgement
--  This work is built upon the KPConv. 
+-  This work is built upon the KPConv.
+-  We sincerely thank the [FreeReg](https://github.com/WHU-USI3DV/FreeReg) for readme template.
 
 
