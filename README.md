@@ -6,7 +6,7 @@ City-scale building instance segmentation from LiDAR point cloud is of great sig
  ![overview](fig/pipeline.png)
 
 ## 💾 Dataset Download
-We provide the City-BIS dataset (SYSU-3DINS dataset) to facilitate future research for building instance segmentation in both suburban and urban areas. City-BIS dataset totally encompasses more than 7,000 buildings of various types within an area of 9.6 square kilometre, which is organised in a well-structured manner and contains two parts. The first part is the original version of the dataset, that contains point clouds with building instance ID annotations for three representative regions. The second part is the finely labelled version of the dataset, that adds the fine-grained attribute annotations of the buildings (e.g., roof type, height and coverage, etc).
+We provide the City-BIS dataset (SYSU-3DINS dataset) to facilitate future research for building instance segmentation in both suburban and urban areas. City-BIS dataset, which is organised in a well-structured manner and contains two parts, totally encompasses more than 7,000 buildings of various types within an area of 9.6 square kilometre. The first part is the original version of the dataset, that contains point clouds with building instance ID annotations for three representative regions. The second part is the finely labelled version of the dataset, that adds the fine-grained attribute annotations of the buildings (e.g., roof type, height and coverage, etc).
 
 The first part of City-BIS (SYSU-3DINS dataset) is available at the [City-BIS dataset](https://pan.baidu.com/s/1ThysM2QRsR3LRpescn--kA?pwd=ezqh)
 
