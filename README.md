@@ -5,6 +5,8 @@ City-scale building instance segmentation from LiDAR point cloud is of great sig
 
  ![overview](fig/pipeline.png)
 
+We have provided a **Colab** template for quick and easy access to this method including VPBE-Net and SI-DVDC algorithm. Please click it. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/Lijp411/47c240b54fa677fac0e30248a5adc62d/city_bis.ipynb)
+
 ## 💾 Dataset Download
 We provide the City-BIS dataset (SYSU-3DINS dataset) to facilitate future research for building instance segmentation in both suburban and urban areas. City-BIS dataset, which is organised in a well-structured manner and contains two parts, totally encompasses more than 7,000 buildings of various types within an area of 9.6 square kilometre. The first part is the original version of the dataset, that contains point clouds with building instance ID annotations for three representative regions. The second part is the finely labelled version of the dataset, that adds the fine-grained attribute annotations of the buildings (e.g., roof type, height and coverage, etc).
 
@@ -51,7 +53,9 @@ The code has been tested on:
   ```
   sudo apt update
   sudo apt install python3-dev python3-pip python3-tk
-  pip install mayavi
+  pip install open3d
+  pip install gradio
+  pip install --upgrade gradio
   ```
   
   Then, you can train the VPBE-Net with the following command on your self-constructed dataset or our example:
@@ -64,16 +68,26 @@ The code has been tested on:
   python test_models.py
   ```
 
-  We provide a **Colab** template for quick and easy access to this method. Please click it. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/Lijp411/47c240b54fa677fac0e30248a5adc62d/city_bis.ipynb)
-
 ## Building Instance Extraction
-  To automatically assign instance-level building IDs, you can use the SI-DVDC method, and the code to be released soon.
+  To automatically assign instance-level building IDs, you can use the SI-DVDC algorithm and specify the parameter in ```SI-DVDC.py``` according to the following commands:
+  ```
+  python SI-DVDC.py
+  ```
+
+## Interactive Operation on Gradio
+  You can select your own supplied point clouds (with RGB attribute) and semantic segmentation results to interactively extract building instances using the following commands. We have provided the [example data](https://drive.google.com/drive/folders/1lhhpUR_FjTHC9uaOSk_sbfxyo6WxuVCo?usp=drive_link).
+  ```
+  python City_BIS_Gradio.py
+  ```
+  After that, you should obtain the building instance extraction results following the usage instructions.
+  
+  ![overview](fig/pipeline.png)
 
 ## 🤝 Contact us
   If you find this repo helpful, please give us a star. For any questions, please contact us via lijp57@mail2.sysu.edu.cn.
 
 ## Acknowledgement
--  This work is built upon the KPConv.
+-  This work is built upon the excellent [KPConv](https://github.com/HuguesTHOMAS/KPConv-PyTorch) and [Gradio](https://github.com/gradio-app/gradio).
 -  We sincerely thank the [FreeReg](https://github.com/WHU-USI3DV/FreeReg) for readme template.
 
 
