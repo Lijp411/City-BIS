@@ -5,7 +5,7 @@ City-scale building instance segmentation from LiDAR point cloud is of great sig
 
  ![overview](fig/pipeline.png)
 
-We have provided a **Colab** template for quick and easy access to this method including VPBE-Net and SI-DVDC algorithm. Please click it. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/Lijp411/47c240b54fa677fac0e30248a5adc62d/city_bis.ipynb)
+We have provided a **Colab** template for quick and easy access to this method including VPBE-Net and SI-DVDC algorithm. Please click it. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/Lijp411/70981b39e1a1b90c0e2077eda6d8eeff/city-bis-release.ipynb)
 
 ## 💾 Dataset Download
 We provide the City-BIS dataset (SYSU-3DINS dataset) to facilitate future research for building instance segmentation in both suburban and urban areas. City-BIS dataset, which is organised in a well-structured manner and contains two parts, totally encompasses more than 7,000 buildings of various types within an area of 9.6 square kilometre. The first part is the original version of the dataset, that contains point clouds with building instance ID annotations for three representative regions. The second part is the finely labelled version of the dataset, that adds the fine-grained attribute annotations of the buildings (e.g., roof type, height and coverage, etc).
@@ -81,7 +81,7 @@ The code has been tested on:
   ```
   After that, you should obtain the building instance extraction results following the usage instructions.
   
-  ![overview](fig/pipeline.png)
+  ![overview](fig/Gradio_Example.png)
 
 ## 🤝 Contact us
   If you find this repo helpful, please give us a star. For any questions, please contact us via lijp57@mail2.sysu.edu.cn.
