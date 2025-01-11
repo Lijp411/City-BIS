@@ -1,7 +1,9 @@
 # City-BIS: City-scale Building Instance Segmentation from LiDAR Point Clouds via Structure-aware Method
 
 ## Abstract
+<p align="justify">
 City-scale building instance segmentation from LiDAR point cloud is of great significance to urban planning management, disaster response and recovery, and land resource management. However, due to the complexity of urban environment and sparse nature of LiDAR data, existing methods are often limited by the problems of obscured building boundaries and incomplete building structures, particularly in densely populated urban areas with diverse architectural styles. To address these challenges, we proposed a novel pipeline that automatically extracts individual buildings from airborne LiDAR point clouds and is especially aware of the building structures. The proposed method encompasses two main stages, building points semantic segmentation and individual building extraction. First, we design a lightweight semantic segmentation network, VPBE-Net, that innovatively utilizes voxel-point cloud fused features to efficiently extract building points from large-scale point cloud. Second, building instances are automatically and robustly extracted using a graph-based algorithm SI-DVDC, which comprehensively considers both building structure property at the object-level and density accessibility at the point-level. The proposed method is evaluated on three public benchmark datasets and one self-annotated dataset. For the semantics, OA and mIoU metrics reach 89.26% and 75.40%, which is 2.22% and 3.25% higher than the state-of-the-art methods, respectively. For the building instance, the instance-level quality metric on the test datasets is 88.65% and 76.97%, respectively.
+</p>
 
  ![overview](fig/pipeline.png)
 
